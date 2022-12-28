@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- ======= Header Section/Seção de Cabeçalho ======== -->
+    <header class="header">
+        <a href="home.html" class="logo"> <i class="fas fa-shopping-basket"></i> Groco</a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">Sobre</a>
+            <a href="review.html">Review</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contato</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <!-- Search Form/Formulario de pesquisa -->
+        <form action="" class="search-form"> 
+            <input type="search" placeholder="Procure aqui..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <!-- Shopping-cart/Carrinho de compras -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.jpg" alt="">
+                <div class="content">
+                    <h3>Legumes Verdes</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">$3.99</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.jpg" alt="">
+                <div class="content">
+                    <h3>Leite Fresco</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">$9.99</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.jpg" alt="">
+                <div class="content">
+                    <h3>Comida Orgânica</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <h3 class="total"> Total : <span>56.97</span></h3>
+            <a href="#" class="btn">Finalizar Carrinho</a>
+        </div>
+        <!-- Login Form/Formulario de Login -->
+        <form action="" class="login-form">
+            <h3>Forma de Login</h3>
+            <input type="email" placeholder="Digite o seu email" class="box">
+            <input type="password" placeholder="Digite a sua senha" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Lembre de Mim</label>
+            </div>
+            <input type="submit" value="Conecte-se agora" class="btn">
+            <p>Esqueceu a Senha? <a href="#">Clique Aqui</a></p>
+            <p>Não tem Conta? <a href="#">Crie Uma</a></p>
+        </form>
+    </header>
+    
+
+    <!-- ======= Category Section/Seção de Categoria ======== -->
+    <div class="heading">
+        <h1>Nossa loja</h1>
+        <p> <a href="home.html">home >></a> shop </p>
+    </div>
+
+    <section class="category">
+        <h1 class="title"> Nossa<span> Categoria</span> <a href="#"> Ver tudo >></a> </h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="images/cat-1.png" alt="">
+                <h3>Frutas frescas</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="images/cat-2.png" alt="">
+                <h3>Legumes</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="images/cat-3.png" alt="">
+                <h3>Especiarias orgânicas</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="images/cat-4.png" alt="">
+                <h3>Carne fresca</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="images/cat-5.png" alt="">
+                <h3>Trigo orgânico</h3>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ======= Products Section/Seção de Produtos ======== -->
+    <section class="products">
+        <h1 class="title"> Nossos<span> Produtos</span> <a href="#"> Ver tudo >></a> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Banana orgânica</h3>
+                    <div class="price">$7.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Abóbora japonesa</h3>
+                    <div class="price">$10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Carne fresca</h3>
+                    <div class="price">$25.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Leite fresco</h3>
+                    <div class="price">$8.20</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Especiarias Orgânicas</h3>
+                    <div class="price">$12.30</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Comida orgânica</h3>
+                    <div class="price">$17.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nabo orgânico</h3>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Camarão fresco</h3>
+                    <div class="price">$22.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ======= Footer Section/Seção de Rodapé ======== -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Link rápido</h3>
+                <a href="home.html"><i class="fas fa-arrow-right"></i> Home</a>
+                <a href="shop.html"><i class="fas fa-arrow-right"></i> Shop</a>
+                <a href="about.html"><i class="fas fa-arrow-right"></i> Sobre</a>
+                <a href="review.html"><i class="fas fa-arrow-right"></i> Review</a>
+                <a href="blogs.html"><i class="fas fa-arrow-right"></i> Blogs</a>
+                <a href="contact.html"><i class="fas fa-arrow-right"></i> Contato</a>
+            </div>
+            <div class="box">
+                <h3>Links extras</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Meu Pedido</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Meu favorito</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Minha Lista de Desejos</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Minha Conta</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Termos de Uso</a>
+            </div>
+            <div class="box">
+                <h3>Siga-Nos</h3>
+                <a href="#"><i class="fas fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fas fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fas fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fas fa-linkedin"></i> Linkedin</a>
+                <a href="#"><i class="fas fa-pinterest"></i> Pinterest</a>
+            </div>
+            <div class="box">
+                <h3>Boletim de Notícias</h3>
+                <p>Inscreva-se para atualizações mais recentes</p>
+                <form action="">
+                    <input type="email" placeholder="Digite seu E-mail">
+                    <input type="submit" value="Se Inscrever" class="btn">
+                </form>
+                <img src="images/payment.png" alt="" class="payment">
+            </div>
+        </div>
+    </section>
+
+    <section class="credit">Criado Por Daniel Oliveira | Todos os Direitos Reservados!</section>
+
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!--
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas
+    26/02/2022
+-->
